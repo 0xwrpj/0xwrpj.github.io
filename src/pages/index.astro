@@ -1,14 +1,11 @@
+
 ---
-import NextApp from '../components/NextApp.jsx';
+import WenwenLayout from '../layouts/Layout.astro';
+
+export const title = "Home - The Page";
 ---
 
-<html>
-  <head>
-    <title>0xwrpj</title>
-  </head>
-  <body>
-    <h1>The Page</h1>
-    <NextApp />
-  </body>
-</html>
-
+<WenwenLayout title={title}>
+  <h2>0xwrpj</h2>
+  <p>i do some tech</p>
+</WenwenLayout>
